@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .imagem {
+            width: 500px;
+            border-radius: 20px;
+            margin-left: 50px;
+            margin-top: 20px;
+        }
+
+        body {
+            background-color: rgb(2, 0, 36);
+            display: flex;
+            justify-content: center;
+        }
+
+        .conteudo {
+            display: flex;
+        }
+
+        .quadrado {
+            margin-top: 250px;
+            width: 600px;
+            background-color: rgb(3, 19, 98);
+            border-radius: 20px;
+        }
+
+        .botao {
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            margin-left: 5px;
+        }
+
+        .botao1{
+            margin-right: 10px;
+            border-radius: 7px;
+            background-color: rgb(35, 205, 16);
+        }
+
+        .botao2{
+            border-radius: 7px;
+            background-color: rgb(35, 205, 16);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="conteudo">
+
+        <div class="quadrado">
+
+            <img src="/aula14/atributos/images/Neymar-e-Coutinho.jpg" alt="Neymar" class="imagem">
+
+            <div class="botao">
+                <button class="botao1" onclick="trocarImagem('Neymar (1).jpg')"><h3>Neymar</h3></button>
+                <button class="botao2" onclick="trocarImagem('coutinho.webp')"><h3>Coutinho</h3></button>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <script src="atributos.js"></script>
+
+</body>
+
+</html>
