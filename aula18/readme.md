@@ -1,3 +1,3 @@
 ## Projeto contador com js
 
- <img src="print.ong" alt="Contador">
+ <img src="print.png" alt="Contador">
