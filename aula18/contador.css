@@ -1,0 +1,51 @@
+body{
+    background-color:brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quadrado{
+    width: 250px;
+    height: 250px;
+    background-color: #ffffff;
+    border: 5px solid #ffffff ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.mais{
+    margin: 5px;
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(14, 161, 161);
+    font-size: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.menos{
+    width: 250px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: rgb(14, 161, 161);
+    font-size: 35px;
+    color: white;
+    margin: 5px;
+    cursor: pointer;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.numero{
+    margin-top: 90px;
+    font-size: 55px;
+}
+
